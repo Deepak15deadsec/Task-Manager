@@ -1,0 +1,302 @@
+.Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    max-height: 550px;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);    
+    z-index: 999;
+}
+
+.Label {
+    margin: 30px 0px -15px 45px;
+    font-size: large;
+    font-weight: 450;
+}
+
+.Checklist {
+    margin: 30px 0px 15px 45px;
+    font-size: large;
+    font-weight: 450;
+}
+
+.AddCheckList {
+    margin: 10px 0px 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: large;
+}
+
+.Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 8px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.InputBox {
+    width: 600px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.PriorityType {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.PriorityHeading {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 450;
+}
+
+.AssignTo {
+    font-size: large;
+    font-weight: 450;
+    margin-left: -80px;
+    margin-right: 20px;
+}
+
+.PriorityContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    /* gap: 50px; */
+}
+
+.PriorityTypeBtn {
+   
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.PriorityTypeBtn1 {
+    padding: 5px 10px;
+    border-radius: 8px;
+    /* border: 1px solid gainsboro; */
+    border: none;
+    cursor: pointer;
+}
+
+.AssignContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    gap: 95px;
+}
+
+.TaskItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+    height: 40px;
+    margin: 10px 45px;
+}
+
+.TaskInput {
+    width: 500px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.Btngrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 45px 40px 45px;
+}
+
+.Btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid gainsboro;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.DeleteBtn {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.SaveAndCancelBtn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.CalendarStyle {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+}
+
+.Task{
+    max-height: 150px;
+    overflow-y: scroll;   
+}
+
+.Task::-webkit-scrollbar {
+    width: 10px;
+}
+
+.Task::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.Task::-webkit-scrollbar-thumb {
+    background: #e0dede;
+    border-radius: 8px;    
+}
+
+.Task::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Circel{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 4px -9px 0px 10px;
+}
+
+/* ------------Dropdown--------------- */
+.Wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;    
+    border-radius: 8px;
+}
+
+.DropdownBtn{   
+    width: 500px;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    font-size: large;
+    
+}
+
+.DropdownItem{
+    position: absolute; 
+    width: 480px;   
+    top: 85px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;   
+    padding: 10px 10px;
+    max-height: 230px;
+    overflow-y: scroll;    
+}
+
+.DropdownField{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+
+/*  */
+
+.AssignToBtn{
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+
+
+.DropdownItem::-webkit-scrollbar {
+    width: 10px;
+}
+
+.DropdownItem::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.DropdownItem::-webkit-scrollbar-thumb {
+    background: #e0dede;
+    border-radius: 8px;    
+}
+
+.DropdownItem::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Circel{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin: 4px -9px 0px 10px;
+}
+
+.PriorityBtn{
+    display: flex;
+    flex-direction: row;
+}

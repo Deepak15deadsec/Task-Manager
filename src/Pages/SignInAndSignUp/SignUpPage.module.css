@@ -1,0 +1,23 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+}
+
+.SignUpContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(4, 141, 153);
+    color: white;    
+}
+
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    min-height: 100vh;
+}

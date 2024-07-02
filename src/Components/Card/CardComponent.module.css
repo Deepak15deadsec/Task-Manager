@@ -1,0 +1,107 @@
+.Container {
+    width: 19vw;
+    max-height: 100vh;
+    border-radius: 12px;
+    background-color: #fff;
+    position: relative;
+}
+
+.DropdownBtn {
+    width: 19vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #fff;
+    font-size: large;
+    cursor: pointer;    
+}
+
+
+.AllBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.Btn {
+    padding: 5px 10px;
+    background-color: gainsboro;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.TaskBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.TaskItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+    height: 40px;
+    margin: 10px 10px;
+}
+
+.TaskInput {
+    width: 250px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+ .DropdownItem {
+    position: absolute;
+    width: 120px;
+    top: 85px;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+    padding: 10px 10px;
+    z-index: 9999;
+
+    /* position: absolute; 
+    width: 150px;   
+    top: 160px;    
+    right: -2.5%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;   
+    padding: 10px 10px; */
+} 
+
+
+
+.DropdownListBtn {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+.Circel{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin: 4px -9px 0px 10px;
+}

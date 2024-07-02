@@ -1,0 +1,37 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding: 10px 0px;
+}
+
+.Card{
+    width: 36vw;
+    background-color: #F9FCFF;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.CardItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Circel{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: turquoise;
+    margin: 10px 5px 0px 0px;
+}
+
+.Tasks{
+    display: flex;
+    flex-direction: row;
+}

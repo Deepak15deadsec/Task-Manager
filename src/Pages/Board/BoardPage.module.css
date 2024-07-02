@@ -1,0 +1,68 @@
+
+.Container{
+    width: 88vw;
+}
+
+.FirstHead{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+   justify-content: space-between;    
+}
+
+.InnerHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header{
+    margin: 0vw 2vw;
+}
+
+.DropdownBtn{   
+    width: 150px;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: end;   
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #fff;   
+    font-size: large;
+    cursor: pointer;
+}
+
+.DropdownItem{
+    position: absolute; 
+    width: 150px;   
+    top: 160px;    
+    right: -2.5%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;   
+    padding: 10px 10px;
+  
+}
+
+.DropdownField{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+
+.DropdownListBtn {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 6px 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.BoardSection{
+    width: 20vw;
+    height: 82vh;
+    background-color: #EEF2F5;   
+    border-radius: 12px;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}

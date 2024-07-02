@@ -1,0 +1,45 @@
+.Dashboard{
+    display: flex;
+    flex-direction: row;
+}
+
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 100vh;   
+    cursor: pointer;
+}
+
+.SidebarLink{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;    
+    gap:30px;
+    font-size: 22px;
+    font-weight: 600;   
+    color: gainsboro;    
+}
+
+.Logout{
+    position: fixed;
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+    bottom: 30px;
+    font-weight: 500;
+}
+
+.Image{
+    margin: 0px 5px -5px 10px ;
+}
+
+.ClickedLink{
+    background-color: #EEF2F5;
+    padding: 10px 0px 10px 0px; 
+    color: black;
+}
+
+.ClickedIcon{
+    color: black;
+}

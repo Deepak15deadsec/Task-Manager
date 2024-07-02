@@ -1,0 +1,52 @@
+.Card{
+    padding: 20px 20px;
+    max-height: 100vh;
+}
+
+.Circel{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin: 4px -9px 0px 10px;
+}
+
+.TaskItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+    height: 40px;
+    margin: 10px 10px;
+}
+
+.TaskInput {
+    width: 250px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.Duedate{
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+font-weight: 450;
+gap: 10px;
+}
+
+.Date{
+    width: 100px;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #CF3636;
+    ;
+}
