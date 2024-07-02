@@ -1,28 +1,57 @@
-.Container{
+.Container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1vw;
 }
 
-
-.Header{
+.Header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 10px;
 }
 
-.BoardSection{
-    width: 20vw;
+.BoardSection {
+    width: 21vw;
     height: 82vh;
-    background-color: #EEF2F5;   
+    background-color: #EEF2F5;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
-.CardContainer{
+.CardContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
+    height: calc(100% - 50px); /* Adjust height to fit within the BoardSection minus some padding */
+    padding: 10px; /* Add some padding to avoid overflow */
+    overflow-y: auto; /* Auto overflow */
+    flex-grow: 1; /* Allow flexbox to control the height */
 }
+
+.CardContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.CardContainer::-webkit-scrollbar-track {
+    background: #EEF2F5;
+}
+
+.CardContainer::-webkit-scrollbar-thumb {
+    background: #e0dede;
+    border-radius: 8px;
+}
+
+.CardContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.CardComponent {
+    width: 100%;
+    margin-bottom: 10px; /* Ensure some space between cards */
+}
+
